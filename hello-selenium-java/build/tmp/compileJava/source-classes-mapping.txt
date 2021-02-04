@@ -1,0 +1,2 @@
+com/example/hello_selenium_java/MainPage.java
+ com.example.hello_selenium_java.MainPage
