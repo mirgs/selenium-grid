@@ -1,0 +1,149 @@
+{
+  "id": "1bd91654-2c44-4a5f-b604-f316b83fb0da",
+  "version": "2.0",
+  "name": "hello-selenium-ide",
+  "url": "https://www.imdb.com/",
+  "tests": [{
+    "id": "a1259173-a19f-45d8-bcaf-6ba9deb0da36",
+    "name": "stackoverflow",
+    "commands": [{
+      "id": "b481c8b2-d3ad-43ad-a96f-e62855c0a1a0",
+      "comment": "",
+      "command": "open",
+      "target": "https://stackoverflow.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a67d1c1-b517-46d9-b7b0-275518f0434f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1169x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a05cb7f3-3dfc-49c4-994d-b7efdd887b4d",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.s-input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='search']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19c20de9-d200-47f0-831c-011a52828f88",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.s-input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='search']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "selenium"
+    }, {
+      "id": "2be9ff3b-cbcf-4b45-a23f-8d8d139c7e11",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.s-input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='search']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "7a387e56-3a50-41be-9720-a0bb75d11790",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=C# HTTP POST a Trigger Action From the Backend. Is it Possble?",
+      "targets": [
+        ["linkText=C# HTTP POST a Trigger Action From the Backend. Is it Possble?", "linkText"],
+        ["css=#question-summary-66011963 .question-hyperlink", "css:finder"],
+        ["xpath=//a[contains(text(),'C# HTTP POST a Trigger Action From the Backend. Is it Possble?')]", "xpath:link"],
+        ["xpath=//div[@id='question-summary-66011963']/div[2]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/questions/66011963/c-sharp-http-post-a-trigger-action-from-the-backend-is-it-possble')]", "xpath:href"],
+        ["xpath=//div[2]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'C# HTTP POST a Trigger Action From the Backend. Is it Possble?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bb490ad0-f619-4bec-89ed-11cae623b971",
+    "name": "imb-wandavision",
+    "commands": [{
+      "id": "ecb76ddc-c90a-4747-b56c-6cd343242234",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.imdb.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ec0508d-15e0-4514-98dd-2fa4d98625d7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1169x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bedcbc7e-99f4-4045-a585-6f39938aafb1",
+      "comment": "",
+      "command": "click",
+      "target": "id=suggestion-search",
+      "targets": [
+        ["id=suggestion-search", "id"],
+        ["name=q", "name"],
+        ["css=#suggestion-search", "css:finder"],
+        ["xpath=//input[@id='suggestion-search']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc9dceab-06e6-448e-ac65-d54184d3e4ad",
+      "comment": "",
+      "command": "type",
+      "target": "id=suggestion-search",
+      "targets": [
+        ["id=suggestion-search", "id"],
+        ["name=q", "name"],
+        ["css=#suggestion-search", "css:finder"],
+        ["xpath=//input[@id='suggestion-search']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "wandavision"
+    }, {
+      "id": "df9de736-1576-4e6a-9ef6-6d934402f72d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=suggestion-search",
+      "targets": [
+        ["id=suggestion-search", "id"],
+        ["name=q", "name"],
+        ["css=#suggestion-search", "css:finder"],
+        ["xpath=//input[@id='suggestion-search']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "88ee53d0-1c51-4312-8df6-bec0637e4770",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bb490ad0-f619-4bec-89ed-11cae623b971"]
+  }],
+  "urls": ["https://amazon.com/", "https://www.amazon.com/", "https://www.stackoverflow.com/", "https://www.imdb.com/"],
+  "plugins": []
+}
