@@ -6,3 +6,9 @@ com/example/hello_selenium_java/MainPageTest.java
  com.example.hello_selenium_java.MainPageTest
 com/example/hello_selenium_java/Test3robobarTest.java
  com.example.hello_selenium_java.Test3robobarTest
+com/example/hello_selenium_java/ImdbTestRemoteFirefox.java
+ com.example.hello_selenium_java.ImdbTestRemoteFirefox
+com/example/hello_selenium_java/ImdbTestRemoteChrome.java
+ com.example.hello_selenium_java.ImdbTestRemoteChrome
+com/example/hello_selenium_java/ImdbTestRemoteOpera.java
+ com.example.hello_selenium_java.ImdbTestRemoteOpera

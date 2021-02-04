@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.hello_selenium_java.ImdbTestRemoteFirefox" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-04T20:20:58" hostname="ubuntu" time="29.545">
+  <properties/>
+  <testcase name="imdb()" classname="com.example.hello_selenium_java.ImdbTestRemoteFirefox" time="29.545"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Feb 04, 2021 9:21:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
