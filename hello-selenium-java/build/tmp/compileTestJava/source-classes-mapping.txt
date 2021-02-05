@@ -1,7 +1,7 @@
 com/example/hello_selenium_java/ImdbTest.java
  com.example.hello_selenium_java.ImdbTest
-com/example/hello_selenium_java/SerachTest.java
- com.example.hello_selenium_java.SerachTest
+com/example/hello_selenium_java/TestRobobarOpera.java
+ com.example.hello_selenium_java.TestRobobarOpera
 com/example/hello_selenium_java/MainPageTest.java
  com.example.hello_selenium_java.MainPageTest
 com/example/hello_selenium_java/Test3robobarTest.java
@@ -12,3 +12,15 @@ com/example/hello_selenium_java/ImdbTestRemoteChrome.java
  com.example.hello_selenium_java.ImdbTestRemoteChrome
 com/example/hello_selenium_java/ImdbTestRemoteOpera.java
  com.example.hello_selenium_java.ImdbTestRemoteOpera
+com/example/hello_selenium_java/TestRobobarChrome.java
+ com.example.hello_selenium_java.TestRobobarChrome
+com/example/hello_selenium_java/TestRobobarFiirefox.java
+ com.example.hello_selenium_java.TestRobobarFiirefox
+com/example/hello_selenium_java/SerachTest.java
+ com.example.hello_selenium_java.SerachTest
+com/example/hello_selenium_java/SearchTestChrome.java
+ com.example.hello_selenium_java.SearchTestChrome
+com/example/hello_selenium_java/SearchTestOpera.java
+ com.example.hello_selenium_java.SearchTestOpera
+com/example/hello_selenium_java/SearchTestFirefox.java
+ com.example.hello_selenium_java.SearchTestFirefox

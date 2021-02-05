@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.hello_selenium_java.SearchTestOpera" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-05T09:34:07" hostname="ubuntu" time="22.726">
+  <properties/>
+  <testcase name="searchdevops()" classname="com.example.hello_selenium_java.SearchTestOpera" time="22.726"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Feb 05, 2021 10:34:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>

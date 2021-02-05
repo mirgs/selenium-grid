@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.hello_selenium_java.ImdbTestRemoteOpera" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-04T20:21:28" hostname="ubuntu" time="32.77">
-  <properties/>
-  <testcase name="imdb()" classname="com.example.hello_selenium_java.ImdbTestRemoteOpera" time="32.77"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Feb 04, 2021 9:21:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-</testsuite>
